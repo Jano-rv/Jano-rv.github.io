@@ -1,0 +1,52 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --red: hsl(0, 100%, 50%);
+}
+
+@font-face {
+  font-family: "wanted";
+  src: url("WantedM54.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo h1 {
+  position: relative;
+  padding: 0.75rem;
+  border: 0.75rem solid transparent;
+  border-image-source: url(podrio.png);
+  border-image-slice: 20;
+  border-image-width: 0.75rem;
+  border-image-repeat: repeat;
+  font-size: 4rem;
+  font-family: "wanted";
+  font-weight: 1;
+  background-image: url(podrio.png);
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#countdown {
+  font-family: "wanted", sans-serif;
+  font-size: 13rem;
+  color: var(--red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+  background: url(podrio.png);
+  background-size: contain;
+  background-color: red;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
