@@ -38,7 +38,7 @@ body {
 
 #countdown {
   font-family: "wanted", sans-serif;
-  font-size: 13rem;
+  font-size: 12rem;
   color: var(--red);
   display: flex;
   justify-content: center;
